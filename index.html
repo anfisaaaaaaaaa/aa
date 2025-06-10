@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Последний вдох</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/image/Group 226.svg" type="image/x-icon">
+    <style>
+    </style>
+</head>
+
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="logo"><img src="assets/image/Group 226.svg" alt=""></div>
+        <ul class="nav-links">
+            <li><a href="#story">Сюжет</a></li>
+            <li><a href="#rounds">Раунды</a></li>
+            <li><a href="#stickers">Стикеры</a></li>
+            <li><a href="#faq">Вопросы</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button class="btn btn-login">Войти</button>
+            <button class="btn btn-register">Зарегистрироваться</button>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <!-- Баннер -->
+    <section class="banner">
+        <div class="slider" style="background-image: url('assets/image/bn.png');">
+        </div>
+        <div class="slider" style="background-image: url('assets/image/bn3.jpeg');">
+        </div>
+        <div class="slider" style="background-image: url('assets/image/bn1.jpeg');">
+        </div>
+
+        <div class="banner-content">
+            <h1>ПОСЛЕДНИЙ ВДОХ</h1>
+            <p>Шесть раундов испытаний. Шесть шансов на спасение. Один путь к свободе...</p>
+            <button class="btn-banner pulse">Начать игру</button>
+        </div>
+    </section>
+
+    <!-- Сюжет -->
+    <section id="story" class="section section-dark">
+        <h2 class="section-title">Сюжет</h2>
+        <div class="story-content">
+            <p>Вы и ваши друзья решили отдохнуть в бане после тяжелой рабочей недели. Но вместо расслабления вас
+                ждал коварный сюрприз.</p>
+            <p>Очнувшись, вы понимаете, что попали в смертельную ловушку - таверну, полную порока и страха. Ваша
+                жизнь теперь в руках самых безжалостных бандитов города.</p>
+            <p>У вас всего час, чтобы найти выход... Вы готовы сделать свой последний вдох?</p>
+        </div>
+    </section>
+
+    <!-- Раунды (вкладки) -->
+    <section id="rounds" class="section">
+        <h2 class="section-title">Раунды</h2>
+        <div class="rounds-tabs">
+            <div class="tabs-header">
+                <button class="tab-btn active" data-tab="round1">Раунд 1</button>
+                <button class="tab-btn" data-tab="round2">Раунд 2</button>
+                <button class="tab-btn" data-tab="round3">Раунд 3</button>
+                <button class="tab-btn" data-tab="round4">Раунд 4</button>
+                <button class="tab-btn" data-tab="round5">Раунд 5</button>
+                <button class="tab-btn" data-tab="round6">Раунд 6</button>
+            </div>
+
+            <div class="tabs-content">
+                <!-- Раунд 1 -->
+                <div id="round1" class="tab-pane active">
+                    <div class="round-info">
+                        <h3 class="round-title">"Пробуждение"</h3>
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <img src="assets/image/a.svg" alt="">
+                                <h4>Суть раунда</h4>
+                                <p>Вы проснулись, связанными в задымленной таверне.
+                                    Голова раскалывается от ядовитого воздуха, который вы
+                                    вдыхали. Силы все больше покидают вас, но вы должны быстрее
+                                    сориентироваться в пространстве
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <h4>Цель</h4>
+                                <p>Освободиться от пут и выбраться из помещения, где вас держат</p>
+                            </div>
+                        </div>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <h4>Успех</h4>
+                                <p>Выход в основное помещение таверны, где вас ждут следующие испытания...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Раунд 2 -->
+                <div id="round2" class="tab-pane">
+                    <div class="round-info">
+                        <h3 class="round-title">"Туманный бокал"</h3>
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <img src="assets/image/Group 2.svg" alt="">
+                                <h4>Суть раунда</h4>
+                                <p>Хозяин таверны предлагает вам 4 бокала - 1 пустой и 3 с сомнительной жидкостью.
+                                    Вы должны выбрать правильный. Ведь ошибка — станет вашим последним глотком</p>
+                            </div>
+                        </div>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <h4>Цель</h4>
+                                <p>Найти безопасный бокал, используя подсказки в комнате</p>
+                            </div>
+                        </div>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <h4>Успех</h4>
+                                <p>Получение первой части ключа от выхода</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Раунд 3 -->
+                <div id="round3" class="tab-pane">
+                    <div class="round-info">
+                        <h3 class="round-title">"Железная загадка"</h3>
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <img src="assets/image/Mask group.svg" alt="">
+                                <h4>Суть раунда</h4>
+                                <p>Вы входите в следующую комнату. Стены увешаны орудиями пыток прошлого. В центре -
+                                    пау
+                                    тина из верёвок. Они шевелятся, скрипят,
+                                    словно кто-то невидимый уже тянет их. А на стене,
+                                    выцарапанная дрожащей рукой, загадка. Решите её — и, возможно, найдёте выход.
+                                    Ошибётесь — станете частью этой комнаты навсегда</p>
+                            </div>
+                        </div>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <h4>Цель</h4>
+                                <p>Разгадать загадку и преодолеть лабиринт, чтобы открыть сундук</p>
+                            </div>
+                        </div>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <h4>Успех</h4>
+                                <p>Получение второй части ключа от выхода</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Раунд 4 -->
+                <div id="round4" class="tab-pane">
+                    <div class="round-info">
+                        <h3 class="round-title">"Тени ароматов"</h3>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <img src="assets/image/Maske.svg" alt="">
+                                <h4>Суть раунда</h4>
+                                <p>Вы попадаете в темную комнату, наполненную запахами гниющих
+                                    продуктов и ядовитых трав. На столе стоят флаконы с разными жидкостями, а
+                                    также лежит записка с инструкцией, как приготовить зелье.
+                                    Вам надо правильно смешать ингредиенты и получить зелье, которое позволит пройти
+                                    дальше</p>
+                            </div>
+                        </div>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <h4>Цель</h4>
+                                <p>Смешать правильно все ингредиенты по инструкции, используя только обоняние</p>
+                            </div>
+                        </div>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <h4>Успех</h4>
+                                <p>Получение третьей части ключа от выхода</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Раунд 5 -->
+                <div id="round5" class="tab-pane">
+                    <div class="round-info">
+                        <h3 class="round-title">"Пазл вечности"</h3>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <img src="assets/image/group.svg" alt="">
+                                <h4>Суть раунда</h4>
+                                <p>Вы получаете неожиданные задания на логику, стоит не спешить и думать более
+                                    спокойно,
+                                    иначе выбраться с этого ада не получится никогда</p>
+                            </div>
+                        </div>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <h4>Цель</h4>
+                                <p>Выполнить все логические задания, чтобы продвинуться дальше</p>
+                            </div>
+                        </div>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <h4>Успех</h4>
+                                <p>Получение четвертой части ключа от выхода</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Раунд 6 -->
+                <div id="round6" class="tab-pane">
+                    <div class="round-info">
+                        <h3 class="round-title">"Дверь свободы"</h3>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <img src="assets/image/r5.svg" alt="">
+                                <h4>Суть раунда</h4>
+                                <p>Вы попадаете в последнюю комнату, где находится дверь, ведущая к свободе, но она
+                                    заперта на сложный замок.
+                                    Используйте все собранные ключи, чтобы открыть дверь и наконец выбраться из
+                                    таверны</p>
+                            </div>
+                        </div>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <h4>Цель</h4>
+                                <p>Собрать все части ключа и открыть дверь до истечения времени</p>
+                            </div>
+                        </div>
+
+                        <div class="round-detail">
+                            <div class="round-detail-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="round-detail-content">
+                                <h4>Успех</h4>
+                                <p>Побег из таверны! Все участники получают памятные сувениры-стикеры</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Стикеры -->
+    <section id="stickers" class="section section-dark">
+        <h2 class="section-title">Стикеры</h2>
+        <div class="stickers-container">
+            <!-- Стикер 1 -->
+            <div class="sticker-card">
+                <div class="sticker-img">
+                    <img src="assets/image/img5.png" alt="">
+                    <i class="fas fa-skull"></i>
+                </div>
+                <div class="sticker-content">
+                    <h3 class="sticker-title">"Хозяин таверны"</h3>
+                    <p class="sticker-desc">Хозяин, чьи напитки меняют судьбу</p>
+                    <button class="btn-download">Скачать</button>
+                </div>
+            </div>
+
+            <!-- Стикер 2 -->
+            <div class="sticker-card">
+                <div class="sticker-img">
+                    <img src="assets/image/img2.png" alt="">
+                    <i class="fas fa-glass-whiskey"></i>
+                </div>
+                <div class="sticker-content">
+                    <h3 class="sticker-title">"Туманный бокал"</h3>
+                    <p class="sticker-desc">Бокал с сомнительной жидкостью</p>
+                    <button class="btn-download">Скачать</button>
+                </div>
+            </div>
+
+            <!-- Стикер 3 -->
+            <div class="sticker-card">
+                <div class="sticker-img">
+                    <img src="assets/image/img1.png" alt="">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <div class="sticker-content">
+                    <h3 class="sticker-title">"Хранилище забытых душ"</h3>
+                    <p class="sticker-desc">Таинственный, старинный сундук</p>
+                    <button class="btn-download">Скачать</button>
+                </div>
+            </div>
+
+            <!-- Стикер 4 -->
+            <div class="sticker-card">
+                <div class="sticker-img">
+                    <img src="assets/image/img4.png" alt="">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <div class="sticker-content">
+                    <h3 class="sticker-title">"Лечебное зелье"</h3>
+                    <p class="sticker-desc">Стикер за прохождение четвертого раунда</p>
+                    <button class="btn-download">Скачать</button>
+                </div>
+            </div>
+
+            <!-- Стикер 5 -->
+            <div class="sticker-card">
+                <div class="sticker-img">
+                    <img src="assets/image/img3.png" alt="">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="sticker-content">
+                    <h3 class="sticker-title">"Застывший вопрос"</h3>
+                    <p class="sticker-desc">Свиток с загадкой</p>
+                    <button class="btn-download">Скачать</button>
+                </div>
+            </div>
+
+            <!-- Стикер 6 -->
+            <div class="sticker-card">
+                <div class="sticker-img">
+                    <img src="assets/image/img6.png" alt="">
+                    <i class="fas fa-door-open"></i>
+                </div>
+                <div class="sticker-content">
+                    <h3 class="sticker-title">"Выход из кошмара"</h3>
+                    <p class="sticker-desc">Ключ к свободе</p>
+                    <button class="btn-download">Скачать</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- вопросы -->
+    <section id="faq" class="section">
+        <h2 class="section-title">Частые вопросы</h2>
+        <div class="faq-container">
+            <!-- Вопрос 1 -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>О чем эта игра?</span>
+                    <i class="fas fa-chevron-down faq-toggle"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>«Последний вдох» — это психологический хоррор с элементами мистики и сюрреализма. Вы играете за
+                        человека, который после отравления угарным газом в бане оказывается в кошмарном измерении, где
+                        реальность смешивается с видениями. Ваша цель — разгадать тайну этого места и выбраться, пока не
+                        стало слишком поздно.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Вопрос 2 -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Сколько человек может участвовать?</span>
+                    <i class="fas fa-chevron-down faq-toggle"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Оптимальное количество участников - от 2 до 6 человек. Для большего количества людей
+                        игра может показаться менее увлекательной, так как не всем достанется активная роль.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Вопрос 3 -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Есть ли возрастные ограничения?</span>
+                    <i class="fas fa-chevron-down faq-toggle"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Игра рекомендуется для участников от 16 лет. Дети младше 16 могут участвовать только в
+                        сопровождении взрослых. Некоторые элементы могут показаться пугающими для маленьких
+                        детей.</p>
+                </div>
+            </div>
+
+            <!-- Вопрос 4 -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Что делать, если мы не сможем решить загадку?</span>
+                    <i class="fas fa-chevron-down faq-toggle"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Наш мастер всегда следит за вашим прогрессом и может дать подсказку, если видит, что вы
+                        застряли. Количество подсказок не ограничено, но каждая подсказка уменьшает ваш итоговый
+                        рейтинг.</p>
+                </div>
+            </div>
+
+            <!-- Вопрос 5 -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Можно ли проходить несколько раз?</span>
+                    <i class="fas fa-chevron-down faq-toggle"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Да, но имейте в виду, что после первого прохождения все загадки и решения будут вам
+                        известны, что значительно снизит интерес. Мы рекомендуем попробовать другие наши квесты.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="footer-content">
+            <div class="developer-info">
+                <h3 class="developer-name">Анфиса Скрябина</h3>
+                <p>Разработчик игры "Последний вдох"</p>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>г. Казань, ул. Таверная, 66</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+799916616666" class="contact-link">+7 (999) 166-16-666</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:last_breath@mail.com" class="contact-link">last_breath@mail.com</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; Июнь 2025. Последний вдох. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Бургер-меню
+        const burger = document.querySelector('.burger');
+        const navLinks = document.querySelector('.nav-links');
+        const navLinksItems = document.querySelectorAll('.nav-links li');
+
+        burger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            burger.classList.toggle('toggle');
+        });
+
+        navLinksItems.forEach(item => {
+            item.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                burger.classList.remove('toggle');
+            });
+        });
+
+        // Слайдер баннера
+        const sliders = document.querySelectorAll('.slider');
+        let currentSlide = 0;
+
+        function showSlide(n) {
+            sliders.forEach(slide => slide.classList.remove('active'));
+            sliders[n].classList.add('active');
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % sliders.length;
+            showSlide(currentSlide);
+        }
+
+
+
+        // Показываем первый слайд и запускаем автоматическую смену
+        showSlide(0);
+        setInterval(nextSlide, 5000);
+
+        // Аккордеон FAQ
+        const faqQuestions = document.querySelectorAll('.faq-question');
+
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const toggle = question.querySelector('.faq-toggle');
+
+                answer.classList.toggle('active');
+                toggle.classList.toggle('active');
+            });
+        });
+
+        // Плавная прокрутка для навигации
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Анимация при скролле
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.round-card, .sticker-card').forEach(card => {
+            observer.observe(card);
+        });
+
+        // Скрипт для вкладок раундов
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const tabPanes = document.querySelectorAll('.tab-pane');
+
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    // Удаляем активный класс у всех кнопок и панелей
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    tabPanes.forEach(p => p.classList.remove('active'));
+
+                    // Добавляем активный класс текущей кнопке
+                    this.classList.add('active');
+
+                    // Находим соответствующую панель и делаем ее активной
+                    const tabId = this.getAttribute('data-tab');
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
